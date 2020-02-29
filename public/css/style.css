@@ -1,0 +1,61 @@
+.bg-login {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(106,183,255);
+    background: linear-gradient(200deg, rgba(106,183,255,1) 0%, rgba(0,91,178,1) 100%);
+}
+@keyframes fast-in-from-up {
+    0%   {top:0px; left:50%; top:0px;}
+    100% { top:100%; left:50%; top:50%;}
+  }
+.login-box-div {
+    background: #6EC6FF;
+    box-shadow: 10px;
+    border-radius: 10px;
+    width: 320px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 10px 10px 29px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 29px -19px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 29px -19px rgba(0,0,0,0.75);
+    animation-name: fast-in-from-up;
+    animation-duration: 1.5s;
+
+}
+.login-button-drop-shadow {
+    background-color: #39796b;
+    border-color: #4fb3bf;
+}
+.login-items-center {
+    margin-top: 30%;
+}
+.atsign {
+    background-color: #afc2cb;
+}
+.avatar {
+    position: absolute;
+    left: 110px;
+    bottom: 250px;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.login-button {
+    padding-top: 11px;
+    cursor: pointer;
+    transform:translateX(50px);
+    width:162px;
+    height: 55px;
+    border-radius: 28px;
+    background-color: white;
+    color: #136BBF;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#707070;
+    font-size: larger;
+}

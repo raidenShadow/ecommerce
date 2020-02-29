@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style-admin-panel.css">
+</head>
+  <body>
+    <div class="container-fluid">
+        <div class="row"  style="max-height:100% ;">
+            <div class="col-lg-2 col-sm-12 text-center panel py-5 px-0" style="max-height:100% ;">
+                <div class="col-12 pb-3">
+                    <img id="avatar" src="DSC_0237.jpg">
+                    <p class="text-white pt-2">Welcome <span id="nickname"></span></p>
+                </div>
+                <div id="opt-overview" class="col-12 py-3 selectable panel-selected-color opt"><p class="text-white my-1">Overview</p></div>
+                <div id="opt-products" class="col-12 py-3 selectable opt"><p class="text-white my-1">Products</p></div>
+                <div id="opt-summary" class="col-12 py-3 selectable opt"><p class="text-white my-1">Monthly summary</p></div>
+                <div id="opt-comments" class="col-12 py-3 selectable opt"><p class="text-white my-1">Comments</p></div>
+                <div id="opt-settings" class="col-12 py-3 selectable opt"><p class="text-white my-1">Settings</p></div>
+                <div id="opt-logout" class="col-12 py-3 selectable panel-logout-color"><p class="text-white my-1">Log out</p></div>
+            </div>
+            <div class="col-lg-10 col-sm-12 main-page">
+                <div id="overview-data" class="data">
+                    <div class="row">
+                        <div class="col-lg-4 p-5 col-md-4 col-sm-12" >
+                            <div class="card bg-light mb-3 material-shadow" style="max-width: 27rem;height: 25rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                <h5 class="card-title">Light card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card bg-light mb-3 material-shadow" style="max-width: 27rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                <h5 class="card-title">Light card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-5 col-md-4 col-sm-12">
+                            <div class="card bg-light mb-3" style="max-width: 27rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                <h5 class="card-title">Light card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card bg-light mb-3" style="max-width: 27rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                <h5 class="card-title">Light card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card bg-light mb-3" style="max-width: 27rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                <h5 class="card-title">Light card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-5 col-md-4 col-sm-12" >
+                            <div class="card text-white bg-primary mb-3" style="max-width: 27rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                <h5 class="card-title">Primary card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card text-white bg-primary mb-3" style="max-width: 27rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                <h5 class="card-title">Primary card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card text-white bg-primary mb-3" style="max-width: 27rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                <h5 class="card-title">Primary card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="products-data" class="data hide-data">
+                    <div class="row">
+                        <div class="col-lg-3 p-5 col-md-4 col-sm-12" >
+                            <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                              <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                              <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+
+                        </div>
+                        <div class="col-lg-3 p-5 col-md-4 col-sm-12" >
+                            <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                              <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                              <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-3 p-5 col-md-4 col-sm-12" >
+                            <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                              <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                              <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+
+                        </div>
+                        <div class="col-lg-3 p-5 col-md-4 col-sm-12" >
+                            <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                              <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                              <div class="card border-dark mb-3" style="max-width: 18rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body text-dark">
+                                  <h5 class="card-title">Dark card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="summary-data" class="data hide-data"></div>
+                <div id="comments-data" class="data hide-data"></div>
+                <div id="settings-data" class="data hide-data"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/script-admin-panel.js"></script>
+</body>
+</html>

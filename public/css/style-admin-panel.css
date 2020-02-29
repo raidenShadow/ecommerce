@@ -1,0 +1,54 @@
+.panel {
+    background: rgb(145,98,228);
+    background: linear-gradient(180deg, rgba(145,98,228,1) 0%, rgba(67,32,159,1) 100%);
+}
+.main-page {
+    max-height: 100%;
+    background: rgb(37,37,88);
+    background: linear-gradient(7deg, rgba(37,37,88,1) 0%, rgba(103,70,195,1) 100%);
+}
+#avatar {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.selectable {
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome, Opera and Firefox */
+}
+.panel-selected-color{
+    animation-name: option-opacity;
+    animation-duration: 1s;
+    background-color: #B085F5;
+}
+@keyframes option-opacity {
+    0%   {    background-color:pink;}
+    100% {    background-color: #B085F5;}
+  }
+.panel-logout-color {
+    background-color: #974AC3;
+}
+.material-shadow {
+    -webkit-box-shadow: 10px 10px 44px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 44px -22px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 44px -22px rgba(0,0,0,0.75);
+}
+
+.hide-data {
+    display: none;
+}
+.border {
+    border-right-width : 1px;
+    border-color: white;
+}
+.border-animated {
+    border-right-width : 5px;
+    border-color: yellow;
+}
